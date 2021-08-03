@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>Automated Translations</title>
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
@@ -12,13 +12,154 @@
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+		<!-- Custom IQAir Presentation Theme -->
+		<link rel="stylesheet" href="css/iqair.css">
 	</head>
-	<body>
+	<body class="iqair-presentation">
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+
+				<!-- Introduction -->
+				<section 
+					data-background-image="https://media.giphy.com/media/XK7VBhOwU9FlrcZQZg/giphy.gif" 
+					data-background-size="430px" 
+					data-background-position="bottom 130px right 20%" data-background-repeat="no-repeat">
+					<div class="row align-items-center position-relative">
+						<div class="col-4">
+							<img src="https://www.iqair.com/assets/logos/iqair_logo_blue_medium.jpg" class="iqair-intro-image" alt="IQAir">
+						</div>
+						<div class="col-8">
+							<h4 class="m-0">
+								<i class="bi bi-translate"></i> Automated Translations
+							</h4>
+							<sub>
+								<p class="text-start ms-2">
+									<small><a href="https://airvisual.atlassian.net/browse/INT-2660">INT-2660</a> Spike by Nikolai Quintos</small>
+								</p>
+							</sub>
+						</div>
+					</div>
+				</section>
+
+				<!-- Current Translation Process -->
+				<section>
+					<div class="row align-items-start">
+						<div class="col-12">
+							<h4>Current Translation Process</h4>
+						</div>
+						<div class="col-6">
+							<div class="text-start">
+								<div class="fragment">
+									<p>Manual Assigment</p>
+									<p class="fs-4"> - deligate content translaton to a real person</p>
+								</div>
+
+								<div class="fragment">
+									<p>Machine Translation</p>
+									<p class="fs-4"> - use of a translation service (such as Google)</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-6">
+							<img src="https://media.giphy.com/media/l0MYSYqm4Z2hVLR4Y/giphy.gif" class="iqair-image-border">
+						</div>
+					</div>
+				</section>
+
+				<!-- Background -->
+				<section>
+					<div class="row align-items-start">
+						<div class="col">
+							<h4>Request</h4>
+
+							<div class="text-start">
+								<p class="fs-5"> - pre-select the regional languages to "auto" translate</p>
+								<p class="fs-5"> - use of machine translation</p>
+								<p class="fs-5"> - allow translation of current languages + new ones if a new regional site is to be launched</p>
+								<p class="fs-5"> - DeepL translation service implementation</p>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<!-- DeepL -->
+				<section>
+					<div class="row">
+						<div class="col">
+							<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/DeepL_logo.svg/1200px-DeepL_logo.svg.png" width="330" alt="DeepL">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col">
+							<p>- fast, accurate, and secure translations</p>
+							<p>- limited language support <small>(Bulgarian, Chinese*, Czech, Danish, Dutch, English**, Estonian, Finnish, French, German, Greek, Hungarian, Italian, Japanese, Latvian, Lithuanian, Polish, Portuguese***, Romanian, Russian, Slovak, Slovenian, Spanish, Swedish)</small></p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col">
+							<p>- Drupal module support (similar to Google Drupal module)</p>
+						</div>
+					</div>
+				</section>
+
+				<!-- Solutions & Recommendation -->
+				<section>
+					<div class="row align-items-center gx-5">
+						<div class="col-6">
+							<img src="https://media.giphy.com/media/8F1BSikWMUPOo/giphy.gif" class="iqair-image-border">
+						</div>
+						<div class="col-6 text-start">
+							<h4><i class="bi bi-lightbulb"></i> Solutions</h4>
+							<p class="fragment fade-up ms-2">
+								Auto Accept <sup><small>(*recommended)</small></sup>
+								<small> - skips review process, requires selection at translate tab</small>
+							</p>
+							<p class="fragment fade-up ms-2">
+								<strike>Rules</strike>
+								<small> - event triggers done through Drupal configurations</small>
+							</p>
+							<p class="fragment fade-up ms-2">
+								Custom Module <sup><small>(*recommended)</small></sup>
+								<small> - new content workflow & customized configuration</small>
+							</p>
+						</div>
+					</div>
+					<!-- <div class="row">
+						<div class="col">
+						</div>
+					</div> -->
+				</section>
+
+				<!-- Questions -->
+				<section 
+					data-background-image="https://media.giphy.com/media/AjvL450TpM6ly/giphy.gif" 
+					data-background-size="contain" 
+					data-background-position="center" data-background-repeat="repeat">
+					<div>
+						<p class="text-middle text-white text-uppercase">
+							<strong>Confused???</strong>
+						</p>
+						<p class="text-white">Ask your questions now.</p>
+					</div>
+				</section>
+
+				<!-- End -->
+				<section 
+					data-background-image="https://media.giphy.com/media/D08aklo5n0hi5PJyZw/giphy.gif" 
+					data-background-size="contain" 
+					data-background-position="center" data-background-repeat="repeat">
+				</section>
 			</div>
+		</div>
+
+		<div class="iqair-logo-container">
+			<img src="./media/iqair_logo.png" class="logo" alt="IQAir Logo">
 		</div>
 
 		<script src="dist/reveal.js"></script>

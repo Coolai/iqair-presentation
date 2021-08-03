@@ -8,6 +8,6 @@ Technologies used are:
 ### Running the project
 1. Clone this repo
 2. Change directory to the repo - `cd iqair-presentation`
-3. Install dependencies `npm install`
-4. Serve the presentation `npm start`
+3. Install dependencies - `npm install`
+4. Serve the presentation - `npm start`
 5. Open [http://localhost:8000](http://localhost:8000) to view your presentation
