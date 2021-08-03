@@ -6,7 +6,7 @@ Technologies used are:
 - Bootstrap
 
 ### Running the project
-1. Clone this repo
+1. Clone this repo - `git clone https://github.com/Coolai/iqair-presentation.git`
 2. Change directory to the repo - `cd iqair-presentation`
 3. Install dependencies - `npm install`
 4. Serve the presentation - `npm start`
