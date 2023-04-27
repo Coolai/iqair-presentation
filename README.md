@@ -1,5 +1,5 @@
 # IQAir Presentation Template
-This project is a slideshow presentation used by Nikolai Quintos for [Spike](https://www.visual-paradigm.com/scrum/what-is-scrum-spike/) presentation for [IQAir](https://www.iqair.com/us/).
+This project is a slideshow presentation used by Nikolai Quintos for a [Spike](https://www.visual-paradigm.com/scrum/what-is-scrum-spike/) presentation for [IQAir](https://www.iqair.com/us/).
 
 Technologies used are:
 - reveal.js
